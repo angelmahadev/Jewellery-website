@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "necklace1",
+        "price": 999,
+        "image": "images/necklace1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "necklace2",
+        "price": 1999,
+        "image": "images/necklace2.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "necklace3",
+        "price": 2999,
+        "image": "images/necklace3.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "necklace4",
+        "price": 3999,
+        "image": "images/necklace4.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "necklace5",
+        "price": 4999,
+        "image": "images/necklace5.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "necklace6",
+        "price": 5999,
+        "image": "images/necklace6.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "necklace7",
+        "price": 2999,
+        "image": "images/necklace7.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "necklace8",
+        "price": 3999,
+        "image": "images/necklace8.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "necklace9",
+        "price": 4999,
+        "image": "images/necklace9.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "necklace10",
+        "price": 5999,
+        "image": "images/necklace10.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "necklace11",
+        "price": 6999,
+        "image": "images/necklace11.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "necklace12",
+        "price": 5999,
+        "image": "images/necklace12.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "necklace13",
+        "price": 6999,
+        "image": "images/necklace13.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "necklace14",
+        "price": 7999,
+        "image": "images/necklace14.jpeg"
+    },
+    {
+        "id": 15,
+        "name": "necklace15",
+        "price": 8999,
+        "image": "images/necklace15.jpeg"
+    }
+]

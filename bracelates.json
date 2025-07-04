@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "bracelate1",
+        "price": 999,
+        "image": "images/bracelate1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "bracelate2",
+        "price": 1999,
+        "image": "images/bracelate2.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "bracelate3",
+        "price": 2999,
+        "image": "images/bracelate3.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "bracelate4",
+        "price": 3999,
+        "image": "images/bracelate4.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "bracelate5",
+        "price": 4999,
+        "image": "images/bracelate5.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "bracelate6",
+        "price": 5999,
+        "image": "images/bracelate6.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "bracelate7",
+        "price": 2999,
+        "image": "images/bracelate7.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "bracelate8",
+        "price": 3999,
+        "image": "images/bracelate8.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "bracelate9",
+        "price": 4999,
+        "image": "images/bracelate9.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "bracelate10",
+        "price": 5999,
+        "image": "images/bracelate10.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "bracelate11",
+        "price": 6999,
+        "image": "images/bracelate11.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "bracelate12",
+        "price": 5999,
+        "image": "images/bracelate12.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "bracelate13",
+        "price": 6999,
+        "image": "images/bracelate13.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "bracelate14",
+        "price": 7999,
+        "image": "images/bracelate14.jpeg"
+    },
+    {
+        "id": 15,
+        "name": "bracelate15",
+        "price": 8999,
+        "image": "images/bracelate15.jpeg"
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "name": "eternal spark",
+        "price": 999,
+        "image": "images/ring16.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "Celestial bloom",
+        "price": 1999,
+        "image": "images/ring17.jpg"
+
+    },
+    {
+        "id": 3,
+        "name": "Golden aura",
+        "price": 2999,
+        "image": "images/ring18.jpg"
+
+    },
+    {
+        "id": 4,
+        "name": "Radiant grace",
+        "price": 3999,
+        "image": "images/ring19.jpg"
+
+    },
+    {
+        "id": 5,
+        "name": "Regal charm",
+        "price": 4999,
+        "image": "images/ring20.jpg"
+
+    },
+    {
+        "id": 6,
+        "name": "Lustrous elegence",
+        "price": 5999,
+        "image": "images/ring10.jpeg"
+
+    },
+    {
+        "id": 7,
+        "name": "v ring",
+        "price": 2999,
+        "image": "images/ring7.jpeg"
+
+    },
+    {
+        "id": 8,
+        "name": "queen ring",
+        "price": 3999,
+        "image": "images/ring8.jpeg"
+
+    },
+    {
+        "id": 9,
+        "name": "gold queen ring",
+        "price": 4999,
+        "image": "images/ring9.jpeg"
+
+    },
+    {
+        "id": 10,
+        "name": "butterfly ring",
+        "price": 5999,
+        "image": "images/ring10.jpeg"
+
+    },
+    {
+        "id": 11,
+        "name": "gold butterfly ring",
+        "price": 6999,
+        "image": "images/ring11.jpeg"
+
+    },
+    {
+        "id": 12,
+        "name": "wiper seal",
+        "price": 5999,
+        "image": "images/ring12.jpeg"
+
+    },
+    {
+        "id": 13,
+        "name": "piston seal",
+        "price": 7999,
+        "image": "images/ring13.jpeg"
+
+    },
+    {
+        "id": 14,
+        "name": "gasket ring",
+        "price": 7999,
+        "image": "images/ring14.jpeg"
+
+    },
+    {
+        "id": 15,
+        "name": "flower gasket ring",
+        "price": 8999,
+        "image": "images/ring15.jpeg"
+
+    }
+    
+    
+    
+    
+]

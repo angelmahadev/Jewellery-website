@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "chain set",
+        "price": 999,
+        "image": "images\/earing1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "stud earing",
+        "price": 1999,
+        "image": "images\/earing2.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "pearl earing",
+        "price": 2999,
+        "image": "images\/earing3.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "star earing",
+        "price": 3999,
+        "image": "images\/earing4.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "flower earing",
+        "price": 4999,
+        "image": "images\/earing5.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "star stud earing",
+        "price": 5999,
+        "image": "images\/earing6.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "gold chain",
+        "price": 999,
+        "image": "images\/chain1.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "blue diamond chain",
+        "price": 1999,
+        "image": "images\/chain2.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "purple diamond chain",
+        "price": 2999,
+        "image": "images\/chain3.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "blue necklace chain",
+        "price": 3999,
+        "image": "images\/chain4.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "purple grape chain",
+        "price": 4999,
+        "image": "images\/chain5.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "gold pendant",
+        "price": 5999,
+        "image": "images\/chain6.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "eternal spark",
+        "price": 6999,
+        "image": "images\/ring16.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Celestial bloom",
+        "price": 7999,
+        "image": "images\/ring17.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Golden aura",
+        "price": 8999,
+        "image": "images\/ring18.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Radiant grace",
+        "price": 9999,
+        "image": "images\/ring19.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Regal charm",
+        "price": 7999,
+        "image": "images\/ring20.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Lustrous elegence",
+        "price": 2999,
+        "image": "images\/ring10.jpeg"
+    },
+    {
+        "id": 1748074056,
+        "name": "jhumki",
+        "price": 3000,
+        "image": "uploads\/earing8.jpeg"
+    },
+    {
+        "id": 1748581530,
+        "name": "banner",
+        "price": 3444,
+        "image": "uploads\/banner.jpg"
+    }
+]
