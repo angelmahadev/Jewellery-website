@@ -1,0 +1,280 @@
+/* ========== Base ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ovo', serif;
+}
+
+svg {
+    width: 30px;
+}
+
+.container {
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+
+/* ========== Title ========== */
+.title {
+    margin: 10px 0 70px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+}
+
+/* ========== Product Grid ========== */
+.listProduct-earings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 products per row */
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.listProduct-earings .item {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.listProduct-earings .item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.listProduct-earings .item h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.listProduct-earings .item .price {
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* ========== Cart Panel ========== */
+.cartTab,
+.cartTab-earings {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 350px;
+    height: 100vh;
+    background: black;
+    color: #eee;
+    box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+    transition: right 0.3s ease;
+    overflow-y: auto;
+    z-index: 9999;
+    padding: 20px;
+}
+
+.cartTab.active,
+.cartTab-earings.active {
+    right: 0;
+}
+
+.cartTab h1,
+.cartTab-earings h1 {
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    color: white;
+}
+
+/* ========== Cart Buttons ========== */
+.cartTab .btn,
+.cartTab-earings .btn {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.cartTab .btn button,
+.cartTab-earings .btn button {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    font-family: 'Ovo', serif;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.cartTab .btn .close,
+.cartTab-earings .btn .close {
+    background-color: #eee;
+    color: #333;
+}
+
+.cartTab .btn .checkOut,
+.cartTab-earings .btn .checkOut {
+    background-color: #E8BC0E;
+    color: black;
+}
+
+/* ========== Cart Items List ========== */
+.listCart {
+    margin-top: 50px;
+    overflow: auto;
+}
+
+.listCart::-webkit-scrollbar {
+    width: 0;
+}
+
+.listCart .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.listCart .item .image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.listCart .item .name {
+    flex: 1;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+}
+
+.listCart .item .total-price {
+    font-weight: 700;
+    color: white;
+    margin-right: 10px;
+}
+
+/* ========== Quantity Controls ========== */
+.listCart .item .quantity {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    user-select: none;
+}
+
+.listCart .item .quantity span {
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: #eee;
+    transition: background-color 0.2s ease;
+}
+
+.listCart .item .quantity span:hover {
+    background: #ccc;
+}
+
+.listCart .item .quantity span:nth-child(2) {
+    background-color: transparent;
+    color: #eee;
+}
+.addCart {
+    background-color: #d2b48c; /* Light brown */
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.addCart:hover {
+    background-color: #c8a77c; /* Slightly darker on hover */
+}     
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* Base font resizing for smaller devices */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Container responsiveness */
+@media (max-width: 1024px) {
+  .container {
+    width: 95%;
+  }
+}
+
+/* ========== Product Grid Responsive ========== */
+@media (max-width: 1024px) {
+  .listProduct-earings {
+    grid-template-columns: repeat(2, 1fr); /* Tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .listProduct-earings {
+    grid-template-columns: repeat(2, 1fr); /* Small tablets */
+  }
+
+  .title {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .listProduct-earings {
+    grid-template-columns: 1fr; /* Phones */
+    padding: 10px;
+    gap: 16px;
+  }
+
+  .listProduct-earings .item img {
+    height: 200px;
+  }
+
+  .listProduct-earings .item h2 {
+    font-size: 16px;
+  }
+
+  .addCart {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Cart Panel Responsiveness */
+@media (max-width: 480px) {
+  .cartTab,
+  .cartTab-earings {
+    width: 100%;
+  }
+
+  .cartTab .btn button,
+  .cartTab-earings .btn button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,1500 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ovo', serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    width: 100%;
+}
+header, main, footer {
+    width: 100%;
+    overflow-x: hidden;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Root Colors */
+:root {
+    --main-color: #cab273;
+    --secondary-color: #551756;
+}
+
+/* Header Section */
+header {
+    background-color: #d61c4e;
+    width: 100%;
+}
+
+/* Top Bar */
+.header-top-bar {
+    border-bottom: 1px solid #d61c4e;
+    padding: 10px;
+    text-align: center;
+    color: #474747;
+    font-size: 0.9rem;
+}
+
+/* Navigation Bar */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Logo (Left) */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo image & text */
+}
+
+.logo img {
+    height: 50px;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+/* Upper Navigation Bar */
+.nav-upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #cab273;
+}
+
+/* Logo & Store Name */
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* Moves logo and name slightly to the right */
+}
+.nav-upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.store-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c83349;
+}
+
+/* Search Bar */
+.nav-search {
+    flex: 1;
+    text-align: center;
+}
+
+.search-bar {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #c83349;
+}
+
+/* Right Side Icons */
+.nav-right {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icon {
+    font-size: 20px;
+    color: #c83349;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* Lower Navigation Bar */
+.nav-lower {
+    background-color: #3e4444;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    position: relative;
+}
+
+/* Highlight on Click */
+.nav-item:focus,
+.nav-item:active {
+    border-bottom: 2px dashed white;
+}
+
+/* Menu (Center) */
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; /* Makes menu take available space */
+    gap: 30px;
+}
+
+.menu li a {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+    color: var(--secondary-color);
+}
+
+/* Right Side Icons (Right) */
+.right-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icon {
+    font-size: 18px;
+    padding: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-icon:hover {
+    transform: scale(1.1);
+    color: var(--secondary-color);
+}
+.menu li a{
+padding: 3px 10px;
+margin: 0px 15px;
+color: #3b3b3b;
+font-weight: 400;
+letter-spacing: 0.5px;
+font-size: 0.9rem;
+transition: all ease 0.3s;
+
+}
+.menu li a:hover,
+.menu li a:active{
+    color: var(--main-color);
+
+}
+/*========= Header Section with Background Color =========*/
+header {
+    background-color:#d61c4e; /* Apply background color */
+    width: 100%;
+}
+
+/* Top Bar */
+.header-top-bar {
+    background-color: #d61c4e; /* White background */
+    padding: 10px;
+    text-align: center;
+    color: black; /* Black text color */
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5%;
+    max-width: 1200px;
+    margin: auto; /* Ensure nav background matches */
+}
+
+
+
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .right-nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 15px;
+    }
+
+    .nav-icon i {
+        font-size: 20px;
+    }
+    /* Full Page Banner */
+    /* Banner Section */
+    /* Full-Screen Banner Section */
+
+
+/* Ensure the image fully covers the banner */
+
+/* Full-Screen Banner Section */
+.banner-container {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.banner-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the container without stretching */
+}
+
+
+}
+.navigation {
+    background-color: #c83349; /* Deep red color for menu */
+}
+
+/* Change full background color */
+body {
+    background-color: #FFFDD0; /* Light yellow background */
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 50px;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Make logo text white for visibility */
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 30px;
+}
+
+.menu li a {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    color: white; /* Change text to white for contrast */
+    transition: color 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+    color: #551756; /* Change hover effect color */
+}
+
+
+/* Right Side Icons */
+.right-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icon {
+    font-size: 18px;
+    padding: 8px;
+    color: white; /* Make icons white */
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-icon:hover {
+    transform: scale(1.1);
+    color: #551756; /* Change hover effect */
+}
+.nav-upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav-search {
+    position: relative;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-bar::placeholder {
+    color: #777;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+}
+
+.nav-left .store-name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-right .nav-icon {
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+
+.nav-right {
+    display: flex;
+    gap: 0; /* Removes space between icons */
+}
+.nav-icon {
+    font-size: 20px;
+    color: #c83349;
+    text-decoration: none;
+    padding: 0; /* Removes padding */
+    margin: 0;  /* Ensures no extra space */
+}
+.nav-right a {
+    display: inline-flex; /* Ensures icons stay in a row */
+    align-items: center;
+}
+.nav-right {
+    display: flex;
+    gap: 0; /* No space between icons */
+    margin-right: 80px; /* Moves icons slightly to the left */
+}
+.nav-upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+
+.nav-icon:hover {
+    transform: scale(1.1);
+    color: var(--secondary-color);
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* ensures it stays above other content */
+}
+
+
+
+/*=============what- we provide======*/
+.what-we-provide{
+    max-width: 1200px;
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.w-info-box{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.w-info-icon{
+    width: 60px;
+    height: 60px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 1.4rem;
+    background-color: var(--main-light-color);
+
+}
+.w-info-icon i {
+    color: #3e4444;
+}
+.w-info-text strong{
+    color: #3b3b3b;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+w.info-text p{
+    color:#535353;
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+
+
+}
+/*========= Categories Section (5 Circular Images) =========*/
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.category-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px; /* Adjust size */
+}
+
+.category-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    border: 3px solid var(--main-color);
+    transition: transform 0.3s ease-in-out;
+}
+
+.category-box img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.category-box p {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+/* Category Container */
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px auto;
+}
+
+.category-box {
+    text-align: center;
+    display: block;
+}
+
+.category-box img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+/*========= Automatic Background Video Section =========*/
+.auto-video-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 1000px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+/* Video Section */
+.auto-video-section {
+    position: relative; /* Ensure it's positioned */
+    z-index: -1; /* Keeps it below the cartTab */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+
+
+.imgsec {
+    display: flex;
+    margin-top: 30px;
+}
+
+.rightimg {
+    width: 700px;
+    position: relative;
+    left: 10px;
+}
+
+.rightimg > img {
+    width: 100%;
+    height: 100%;
+}
+
+.twoimg {
+    height: 100%;
+    width: 735px;
+    position: relative;
+    left: 35px;
+}
+
+.twoimg img {
+    width: 100%;
+    height: 340px;
+}
+
+.diamond-title {
+    text-align: center;
+    font-family: 'Ovo', serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: black; /* Text color set to black */
+    letter-spacing: 3px;
+    padding: 20px 0;
+}
+
+.diamond-title h1 {
+    display: inline-block;
+    padding: 10px 20px;
+}
+.category-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 15px; /* Space between images */
+    justify-content: center;
+    align-items: center;
+    max-width: 150%; /* Adjust to fit layout */
+    margin: auto; /* Center the grid */
+    margin-top: 50px; /* Added 70px space before */
+    padding-left: 10px;
+
+}
+
+.category-images img {
+    width: 100%; /* Make images responsive */
+    max-width: 650px; /* Limit image size */
+    height: auto; /* Keep original aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+    object-fit: cover;
+}
+/*collections*/
+.collection-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-left: 10px;
+    margin-top: 50px;
+
+}
+
+
+.collection-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-item {
+    width: 300px; /* Adjust based on design */
+    height: 400px;
+}
+
+.collection-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Raise the middle image slightly */
+.collection-item.middle {
+    margin-top: -80px; /* Moves it up */
+}
+
+/* View All Collections Box */
+.view-collections {
+    margin-top: -20px; /* Adjust spacing */
+    background: rgba(255, 255, 255, 0.6);
+    padding: 15px 30px;
+    border: 2px solid #51248d;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.view-button {
+    text-decoration: none;
+    color: #51248d;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*diamond jewellery*/
+.diamond-images {
+    display: flex;
+    justify-content: center; /* Center images */
+    align-items: center;
+    gap: 10px; /* Space between images */
+    margin-top: 50px; /* Add 70px space before */
+    height: 50vh;
+    padding-left: 10px;
+ /* Make it half of the viewport height */
+}
+.diamond-images img {
+    width: 45%; /* Reduce width slightly */
+    height: 100%; /* Reduce height slightly */
+    object-fit: cover;
+    border-radius: 10px;
+}
+/*******More Jewellery**********/
+.more-jewellery {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.jewellery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.jewellery-container img {
+    width: 30%;  /* Ensures all images fit in one row */
+    height: auto; 
+    border-radius: 10px; /* Optional: for rounded corners */
+}
+
+/*******gifting********/
+
+.gifting-section {
+    display: flex;
+    width: 100%;
+}
+
+.gift-main {
+    width: 40%;
+}
+
+.gift-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gift-grid {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+}
+
+.gift-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+/*=============clients==========*/
+#clients.{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f656;
+    padding: 60px 0px;
+    margin: 40px auto;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+
+
+}
+.client-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.client-heading h3{
+    font-size: 1.8rem;
+    color: #202020;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 0px 5px;
+
+}
+.client-heading p{
+    color: #696969;
+    font-size: 0.8rem;
+}
+.client-box-container{
+grid-gap: 20px;
+width: 90%;
+margin-top: 40px;
+
+}
+.client-box{
+    background-color: #FFFDD0;
+    padding: 30px 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 0px 30px 0px 30px;
+}
+.client-profile{
+    display: flex;
+    align-items: center;
+
+}
+.client-profile img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.profile-text{
+    display: flex;
+    flex-direction:column;
+    margin-left: 10px;
+}
+profile-text strong{
+    color: #393939;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.profile-text  span{
+    color: #949494;
+    font-weight: 400;
+    font-size: 0.8rem;
+
+}
+.rating{
+    display: flex;
+    margin: 10px 0px;
+
+}
+.rating i{
+    color: var(--main-color);
+}
+.client-box p{
+    color: #7c7c7c;
+    font-size: 0.9rem;
+
+}
+/*============= Testimonials Section ==========*/
+#clients {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 60px 0;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.client-heading {
+    text-align: center;
+}
+
+.client-heading h3 {
+    font-size: 1.8rem;
+    color: #202020;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.client-heading p {
+    color: #696969;
+    font-size: 0.9rem;
+}
+
+.client-box-container {
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 40px;
+}
+
+/* Swiper Slider */
+.swiper-wrapper {
+    display: flex;
+}
+
+.client-box {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 0px 30px 0px 30px;
+    text-align: center;
+}
+
+/* Client Profile */
+.client-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-text {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.profile-text strong {
+    color: #393939;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.profile-text span {
+    color: #949494;
+    font-size: 0.8rem;
+}
+
+/* Rating Stars */
+.rating {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.rating i {
+    color: var(--main-color);
+    font-size: 16px;
+}
+
+/* Swiper Pagination */
+.swiper-pagination {
+    margin-top: 15px;
+    position: relative;
+}
+/*=============blog========*/
+/*========= Blog Section =========*/
+.blog-section {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f6f6f6;
+}
+
+.blog-heading h3 {
+    font-size: 1.8rem;
+    color: #202020;
+    font-weight: 500;
+}
+
+.blog-heading p {
+    color: #696969;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+    background-color:#FFFDD0;
+}
+
+.blog-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog-box:hover {
+    transform: translateY(-5px);
+}
+
+.blog-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.blog-box h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.blog-box p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: justify;
+    height: 120px; /* Fixed height to ensure uniformity */
+    overflow: hidden;
+}
+
+.read-more {
+    display: inline-block;
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.read-more:hover {
+    color: var(--main-color);
+}
+/*========= Footer Section =========*/
+.footer {
+    background-color: #d9ad7c;
+    padding: 50px 0;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    width: 22%;
+    text-align: left;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-column ul li a:hover {
+    color: #551756;
+}
+.footer {
+    background-color: #c83349; /* Deep red color for footer */
+    color: white; /* Ensure text is visible */
+}
+
+/* Footer text color */
+.footer a, .footer p, .footer h3 {
+    color: white; /* Set footer text color to white for contrast */
+}
+
+/* Footer social icons color */
+.footer .social-icons a {
+    color: white;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #551756;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+}
+/*CART*/
+.add-to-cart {
+    background-color: GREEN;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart:hover {
+    background-color: GREEN;
+}
+#cart-count {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
+.nav-icon {
+    position: relative;
+}
+#clients {
+    background-color: #FFFDD0; /* Change background color to cream */
+}
+.blog-container {
+    background-color: #FFFDD0; /* Change background color to cream */
+}
+.blog-section {
+    background-color: #FFFDD0; /* Change background color to cream */
+}
+/* Smaller section titles */
+.title, .client-heading h3, .blog-heading h3 {
+    font-size: 45px; /* Smaller than "Diamond Jewelry" */
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.blog-heading p {
+    font-size: 20px; /* Adjusted for a smaller subtitle */
+    color: #696969;
+    text-align: center;
+}
+.client-heading p, .blog-heading p {
+    font-size: 20px; /* Slightly smaller than section titles */
+    font-weight: normal;
+    color: #696969;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left, .right {
+  flex: 1 1 100%;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .left, .right {
+    flex: 1;
+  }
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+body {
+  font-size: 16px;
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+/* Responsive CSS for the provided style */
+
+/* Base responsive settings */
+html {
+  scroll-behavior: smooth;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+  /* Header and Navigation */
+  header {
+    position: relative; /* Change from fixed to allow content to flow normally */
+  }
+  
+  .nav-upper {
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .nav-left {
+    margin-bottom: 10px;
+    margin-left: 0;
+    justify-content: center;
+  }
+  
+  .nav-search {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .search-bar {
+    width: 90%;
+  }
+  
+  .nav-right {
+    margin-right: 0;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .menu li {
+    margin: 5px 0;
+  }
+  
+  /* What we provide section */
+  .what-we-provide {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  /* Categories */
+  .category-container {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .category-box {
+    width: 40%;
+  }
+  
+  .category-box img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Image sections */
+  .imgsec {
+    flex-direction: column;
+  }
+  
+  .rightimg, .twoimg {
+    width: 100%;
+    left: 0;
+    position: static;
+  }
+  
+  .twoimg img {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Category images */
+  .category-images {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Collections */
+  .collection-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .collection-item {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .collection-item.middle {
+    margin-top: 0;
+  }
+  
+  /* Diamond images */
+  .diamond-images {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .diamond-images img {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  
+  /* More jewellery */
+  .jewellery-container {
+    flex-direction: column;
+  }
+  
+  .jewellery-container img {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+  
+  /* Gifting section */
+  .gifting-section {
+    flex-direction: column;
+  }
+  
+  .gift-main {
+    width: 100%;
+  }
+  
+  .gift-grid {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 577px to 768px) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  /* Header and Navigation */
+  .nav-upper {
+    padding: 10px;
+  }
+  
+  .nav-left {
+    margin-left: 5px;
+  }
+  
+  .nav-search {
+    margin: 0 10px;
+  }
+  
+  .nav-right {
+    margin-right: 20px;
+    gap: 10px;
+  }
+  
+  .menu {
+    gap: 15px;
+  }
+  
+  /* What we provide */
+  .what-we-provide {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  /* Category images */
+  .category-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Collections */
+  .collection-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .collection-item {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  
+  .collection-item.middle {
+    margin-top: 0;
+  }
+  
+  /* Image sections */
+  .imgsec {
+    flex-direction: column;
+  }
+  
+  .rightimg, .twoimg {
+    width: 100%;
+    left: 0;
+    position: static;
+  }
+  
+  /* Gifting section */
+  .gift-main {
+    width: 40%;
+  }
+  
+  .gift-grid {
+    width: 60%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Medium devices (landscape tablets, 769px to 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /* Navigation */
+  .nav-search {
+    margin: 0 15px;
+  }
+  
+  .nav-right {
+    margin-right: 30px;
+  }
+  
+  /* What we provide */
+  .what-we-provide {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+  
+  /* Category images */
+  .category-images {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Collections */
+  .collection-item {
+    width: 250px;
+  }
+  
+  /* Image sections */
+  .imgsec {
+    flex-wrap: wrap;
+  }
+  
+  .rightimg {
+    width: 55%;
+  }
+  
+  .twoimg {
+    width: 40%;
+    left: 0;
+  }
+  
+  /* Gifting section */
+  .gift-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Ensure all buttons are touchable on mobile */
+@media only screen and (max-width: 768px) {
+  .nav-icon, .menu li a {
+    min-height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Ensure text remains readable */
+  body {
+    font-size: 16px;
+  }
+  
+  h1, h2, h3 {
+    word-wrap: break-word;
+  }
+}

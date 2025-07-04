@@ -1,0 +1,112 @@
+[
+
+    {
+        "id": 1,
+        "name": "chain set",
+        "price": 999,
+        "image": "images/earing1.jpeg"
+
+    },
+    {
+        "id": 2,
+        "name": "stud earing",
+        "price": 1999,
+        "image": "images/earing2.jpeg"
+
+    },
+    {
+        "id": 3,
+        "name": "pearl earing",
+        "price": 2999,
+        "image": "images/earing3.jpeg"
+
+    },
+    {
+        "id": 4,
+        "name": "star earing",
+        "price": 3999,
+        "image": "images/earing4.jpeg"
+
+    },
+    {
+        "id": 5,
+        "name": "flower earing",
+        "price": 4999,
+        "image": "images/earing5.jpeg"
+
+    },
+    {
+        "id": 6,
+        "name": "star stud earing",
+        "price": 5999,
+        "image": "images/earing6.jpeg"
+
+    },
+    {
+        "id": 6,
+        "name": "pearl stud earing",
+        "price": 2999,
+        "image": "images/earing7.jpeg"
+
+    },
+    {
+        "id": 7,
+        "name": "gold plated jhumka",
+        "price": 3999,
+        "image": "images/earing8.jpeg"
+
+    },
+    {
+        "id": 8,
+        "name": "brown colored pearl earing",
+        "price": 4999,
+        "image": "images/earing9.jpeg"
+
+    },
+    {
+        "id": 10,
+        "name": "pearl hanging",
+        "price": 5999,
+        "image": "images/earing10.jpeg"
+
+    },
+    {
+        "id": 11,
+        "name": "white pearl hanging",
+        "price": 6999,
+        "image": "images/earing11.jpeg"
+
+    },
+    {
+        "id": 12,
+        "name": "pearl stud ",
+        "price": 5999,
+        "image": "images/earing12.jpeg"
+
+    },
+    
+    
+    {
+        "id": 13,
+        "name": "bracelate like earing",
+        "price": 6999,
+        "image": "images/earing13.jpeg"
+
+    },
+    {
+        "id": 14,
+        "name": "rain drop earing",
+        "price": 7999,
+        "image": "images/earing14.jpeg"
+
+    },
+    {
+        "id": 15,
+        "name": "hair accesed earing",
+        "price": 8999,
+        "image": "images/earing15.jpeg"
+
+    }
+    
+    
+]

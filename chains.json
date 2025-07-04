@@ -1,0 +1,110 @@
+[
+
+   
+    {
+        "id": 1,
+        "name": "gold chain",
+        "price": 999,
+        "image": "images/chain1.jpeg"
+
+    },
+    {
+        "id": 2,
+        "name": "blue diamond chain",
+        "price": 1999,
+        "image": "images/chain2.jpeg"
+
+    },
+    {
+        "id": 3,
+        "name": "purple diamond chain",
+        "price": 2999,
+        "image": "images/chain3.jpeg"
+
+    },
+    {
+        "id": 4,
+        "name": "blue necklace chain",
+        "price": 3999,
+        "image": "images/chain4.jpeg"
+
+    },
+    {
+        "id": 5,
+        "name": "purple grape chain",
+        "price": 4999,
+        "image": "images/chain5.jpeg"
+
+    },
+    {
+        "id": 6,
+        "name": "gold pendant",
+        "price": 5999,
+        "image": "images/chain6.jpeg"
+
+    },
+    {
+        "id": 7,
+        "name": "white crystal chain chain",
+        "price": 2999,
+        "image": "images/chain7.jpeg"
+
+    },
+    {
+        "id": 8,
+        "name": "square purple chain",
+        "price": 3999,
+        "image": "images/chain8.jpeg"
+
+    },
+    {
+        "id": 9,
+        "name": "flower green chain",
+        "price": 4999,
+        "image": "images/chain9.jpeg"
+
+    },
+    {
+        "id": 10,
+        "name": "gold thin chain",
+        "price": 5999,
+        "image": "images/chain10.jpeg"
+
+    },
+    {
+        "id": 11,
+        "name": "minimal elegance chain",
+        "price": 6999,
+        "image": "images/chain11.jpeg"
+
+    },
+    {
+        "id": 12,
+        "name": "gold leaf cascade",
+        "price": 5999,
+        "image": "images/chain12.jpeg"
+
+    },
+    {
+        "id": 13,
+        "name": "golden laurel",
+        "price": 6999,
+        "image": "images/chain13.jpeg"
+
+    },
+    {
+        "id": 14,
+        "name": "daisy drop",
+        "price": 7999,
+        "image": "images/chain14.jpeg"
+
+    },
+    {
+        "id": 15,
+        "name": "orchid pearl necklace",
+        "price": 8999,
+        "image": "images/chain15.jpeg"
+
+    }
+    
+]
